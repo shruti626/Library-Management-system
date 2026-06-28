@@ -5,7 +5,7 @@ export const AuthContext = createContext();
 
 // Create axios instance with base URL
 export const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://library-management-system-backend-wav6.onrender.com',
 });
 
 export const AuthProvider = ({ children }) => {
